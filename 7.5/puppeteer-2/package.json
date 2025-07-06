@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "cucumber": "cucumber-js"
+    "test": "jest --watchAll --detectOpenHandles",
+    "test1": "jest --runInBand",
+    "cucumber": "cucumber-js",
+    "cucumber2": "cucumber-js --tags=@only"
   },
   "author": "",
   "license": "ISC",
